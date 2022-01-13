@@ -1,0 +1,3 @@
+[submodule "project-enigma-core"]
+	path = project-enigma-core
+	url = git@github.com:diaz-zeng/project-enigma-core.git

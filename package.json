@@ -1,0 +1,17 @@
+{
+  "name": "project-enigma-demo",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "author": "Diaz",
+  "scripts": {
+    "dev": "tsc && node ./dist/main.js",
+    "postinstall": "node ./scripts/postinstall.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  }
+}
