@@ -15,7 +15,6 @@ const main = async () => {
     await _exec('git submodule init')
     await _exec('git submodule update')
     cd(resolve('project-enigma-core'))
-    await _exec('yarn install')
     await _exec('yarn link')
     cd(resolve())
     await _exec('yarn link project-enigma-core')
