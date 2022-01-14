@@ -5,7 +5,7 @@
  */
 import { Enigma } from 'project-enigma-core'
 function main() {
-    const instance = new Enigma()
-    console.log(instance.input("IRKHB MWCVE"))
+    const instance = new Enigma().setWordMapperSetting([{ value1: 'A', value2: 'B' }])
+    console.log(instance.input("IRKHA MWCVE"))
 }
 main();
